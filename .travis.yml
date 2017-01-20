@@ -1,0 +1,8 @@
+language: node_js
+node_js: node
+
+script:
+    - cd lib/fathead/eslint
+    - npm install
+    - npm run build
+    - npm test
